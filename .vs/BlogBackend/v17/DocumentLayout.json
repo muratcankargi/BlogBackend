@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\muratcankargi.com\\BlogBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\validations\\checkvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\validations\\checkvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\services\\dto\\createblogrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\services\\dto\\createblogrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\repostories\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\repostories\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\repostories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\repostories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\appcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|d:\\muratcankargi.com\\blogbackend\\blogbackend\\repostories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{528156D4-470D-4D85-BB1F-BD04284D443E}|BlogBackend\\BlogBackend.csproj|solutionrelative:blogbackend\\repostories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBlogRequestDTO.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Services\\DTO\\CreateBlogRequestDTO.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Services\\DTO\\CreateBlogRequestDTO.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Services\\DTO\\CreateBlogRequestDTO.cs",
+              "RelativeToolTip": "BlogBackend\\Services\\DTO\\CreateBlogRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:08:32.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckValidation.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Validations\\CheckValidation.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Validations\\CheckValidation.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Validations\\CheckValidation.cs",
+              "RelativeToolTip": "BlogBackend\\Validations\\CheckValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T14:34:22.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Program.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Program.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Program.cs",
+              "RelativeToolTip": "BlogBackend\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T19:28:28.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Services\\BlogService.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Services\\BlogService.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Services\\BlogService.cs",
+              "RelativeToolTip": "BlogBackend\\Services\\BlogService.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T11:45:29.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\AppContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\AppContext\\AppDbContext.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\AppContext\\AppDbContext.cs",
+              "RelativeToolTip": "BlogBackend\\AppContext\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T10:07:27.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogBackend\\appsettings.json",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\appsettings.json",
+              "RelativeToolTip": "BlogBackend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-18T09:53:54.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Controllers\\BlogController.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "BlogBackend\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:49:27.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Repostories\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Repostories\\BlogRepository.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Repostories\\BlogRepository.cs",
+              "RelativeToolTip": "BlogBackend\\Repostories\\BlogRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:34:59.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EFRepository.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Repostories\\EFRepository.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Repostories\\EFRepository.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Repostories\\EFRepository.cs",
+              "RelativeToolTip": "BlogBackend\\Repostories\\EFRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:26:55.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Repostories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Repostories\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Repostories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "BlogBackend\\Repostories\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:24:10.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "BlogBackend\\Entities\\Blog.cs",
+              "ToolTip": "D:\\muratcankargi.com\\BlogBackend\\BlogBackend\\Entities\\Blog.cs",
+              "RelativeToolTip": "BlogBackend\\Entities\\Blog.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA4wCEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:20:25.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1498,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

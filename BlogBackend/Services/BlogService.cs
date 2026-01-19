@@ -1,6 +1,8 @@
 ﻿using BlogBackend.Entities;
 using BlogBackend.Repostories;
 using BlogBackend.Repostories.Interfaces;
+using BlogBackend.Services.DTO;
+using BlogBackend.Validations;
 
 namespace BlogBackend.Services
 {
@@ -18,7 +20,7 @@ namespace BlogBackend.Services
             {
                 if (string.IsNullOrWhiteSpace(model.Description))
                     throw new ArgumentNullException("description cannot be empty");
-                Blog blog = new Blog(model.Description);
+                Blog blog = new Blog(model.Title, model.Description);
                 _repository.Create(blog);
 
                 return Result.Ok();
@@ -37,7 +39,7 @@ namespace BlogBackend.Services
 
                 return Result<IReadOnlyList<ListBlogResponse>>.Ok(
                     blogs
-                    .Select(x => new ListBlogResponse(x.Id, x.Description, x.CreatedAt))
+                    .Select(x => new ListBlogResponse(x.Id, x.Title, x.Description, x.CreatedAt, x.UpdatedAt))
                     .OrderBy(b => b.Id)
                    .ToList()
                 );
@@ -93,10 +95,9 @@ namespace BlogBackend.Services
                 if (blog == null)
                     return Result<Blog>.Fail("blog not found");
 
-                if (string.IsNullOrWhiteSpace(request.Description))
-                    throw new ArgumentNullException("description cannot be empty");
+                blog.SetDescription(request.Description);
+                blog.SetTitle(request.Title);
 
-                blog.Description = request.Description;
                 _repository.Update(blog);
                 return Result<Blog>.Ok(blog);
             }

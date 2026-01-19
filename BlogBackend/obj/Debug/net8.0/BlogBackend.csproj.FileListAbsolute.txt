@@ -119,3 +119,4 @@ D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\refint\BlogBackend
 D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\BlogBackend.pdb
 D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\BlogBackend.genruntimeconfig.cache
 D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\ref\BlogBackend.dll
+D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\BlogBackend.sourcelink.json
