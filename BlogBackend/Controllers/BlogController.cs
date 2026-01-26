@@ -2,6 +2,7 @@
 using BlogBackend.Services.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace BlogBackend.Controllers
 {
@@ -14,10 +15,12 @@ namespace BlogBackend.Controllers
         {
             _service = service;
         }
+        [EnableRateLimiting("fixed")]
         [HttpGet]
-        public ActionResult<Result> GetAllBlogs()
+        public async Task<ActionResult<Result>> GetAllBlogs()
         {
-            return Ok(_service.GelAll());
+            var blogs = await _service.GetAll();
+            return Ok(blogs);
         }
 
         [HttpPost]

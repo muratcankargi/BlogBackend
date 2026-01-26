@@ -3,7 +3,9 @@ using BlogBackend.AppContext;
 using BlogBackend.Repostories;
 using BlogBackend.Repostories.Interfaces;
 using BlogBackend.Services;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.RateLimiting;
 
 namespace BlogBackend
 {
@@ -43,7 +45,21 @@ namespace BlogBackend
                     });
             });
 
+
+            builder.Services.AddRateLimiter(options =>
+            {
+                options.AddFixedWindowLimiter("fixed", opt =>
+                {
+                    opt.PermitLimit = 10;           // 10 istek
+                    opt.Window = TimeSpan.FromSeconds(10); // 10 saniyede
+                    opt.QueueLimit = 0;
+                });
+            });
+
+
             var app = builder.Build();
+
+            app.UseRateLimiter();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -51,7 +67,7 @@ namespace BlogBackend
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            
+
             app.UseCors("AllowAngular");
             app.UseHttpsRedirection();
 

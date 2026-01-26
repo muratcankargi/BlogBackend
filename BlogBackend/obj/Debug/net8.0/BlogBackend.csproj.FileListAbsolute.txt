@@ -120,3 +120,6 @@ D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\BlogBackend.pdb
 D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\BlogBackend.genruntimeconfig.cache
 D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\ref\BlogBackend.dll
 D:\muratcankargi.com\BlogBackend\BlogBackend\obj\Debug\net8.0\BlogBackend.sourcelink.json
+D:\muratcankargi.com\BlogBackend\BlogBackend\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\muratcankargi.com\BlogBackend\BlogBackend\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\muratcankargi.com\BlogBackend\BlogBackend\bin\Debug\net8.0\StackExchange.Redis.dll

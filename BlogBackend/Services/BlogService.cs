@@ -3,6 +3,8 @@ using BlogBackend.Repostories;
 using BlogBackend.Repostories.Interfaces;
 using BlogBackend.Services.DTO;
 using BlogBackend.Validations;
+using System.Collections.Generic;
+using System.Reflection.Metadata;
 
 namespace BlogBackend.Services
 {
@@ -31,25 +33,25 @@ namespace BlogBackend.Services
             }
         }
 
-        public Result<IReadOnlyList<ListBlogResponse>> GelAll()
+        public async Task<Result<List<ListBlogResponse>>> GetAll()
         {
             try
             {
-                var blogs = _repository.GetAll();
+                var blogs = await _repository.GetAllBlogList();
 
-                return Result<IReadOnlyList<ListBlogResponse>>.Ok(
+                if (blogs == null)
+                    return Result<List<ListBlogResponse>>.Fail("blogs not found");
+
+                return Result<List<ListBlogResponse>>.Ok(
                     blogs
-                    .Select(x => new ListBlogResponse(x.Id, x.Title, x.Description, x.CreatedAt, x.UpdatedAt))
-                    .OrderBy(b => b.Id)
-                   .ToList()
                 );
-
             }
             catch (Exception ex)
             {
-                return Result<IReadOnlyList<ListBlogResponse>>.Fail(ex.Message);
+                return Result<List<ListBlogResponse>>.Fail(ex.Message);
             }
         }
+
 
         public Result<Blog> GetById(int id)
         {
