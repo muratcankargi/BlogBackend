@@ -6,6 +6,7 @@ using BlogBackend.Services;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.RateLimiting;
+using DotNetEnv;
 
 namespace BlogBackend
 {
@@ -14,7 +15,7 @@ namespace BlogBackend
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            Env.Load("secret.env");
             // Add services to the container.
 
             builder.Services.AddControllers();

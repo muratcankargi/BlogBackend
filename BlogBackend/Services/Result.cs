@@ -1,4 +1,6 @@
-﻿namespace BlogBackend.Services
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace BlogBackend.Services
 {
     public class Result
     {
