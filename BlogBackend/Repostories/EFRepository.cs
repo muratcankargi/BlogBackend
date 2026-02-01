@@ -32,9 +32,9 @@ namespace BlogBackend.Repostories
             return _set.ToList();
         }
 
-        public T GetById(int id)
+        public async Task<T> GetById(int id)
         {
-            return _set.Find(id);
+            return await _set.FindAsync(id);
         }
 
         public void Update(T entity)

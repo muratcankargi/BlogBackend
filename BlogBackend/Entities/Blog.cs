@@ -16,6 +16,9 @@ namespace BlogBackend.Entities
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         [Column("UPDATED_AT")]
         public DateTime UpdatedAt { get; private set; }
+        //[Column("IS_DELETED")]
+        //public int IsDeleted { get; private set; } 
+
 
         public Blog()
         {
@@ -27,6 +30,12 @@ namespace BlogBackend.Entities
             SetTitle(title);
             SetDescription(description);
         }
+
+        //public void SoftDelete()
+        //{
+        //    IsDeleted = 1;
+        //    Touch();
+        //}
         public void Touch() => UpdatedAt = DateTime.Now;
         public void SetDescription(string description)
         {

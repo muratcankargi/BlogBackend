@@ -3,6 +3,7 @@ using BlogBackend.Repostories;
 using BlogBackend.Repostories.Interfaces;
 using BlogBackend.Services.DTO;
 using BlogBackend.Validations;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Metadata;
 
@@ -53,11 +54,11 @@ namespace BlogBackend.Services
         }
 
 
-        public Result<Blog> GetById(int id)
+        public async Task<Result<Blog>> GetById(int id)
         {
             try
             {
-                var blog = _repository.GetById(id);
+                var blog = await _repository.GetById(id);
 
                 if (blog == null)
                     return Result<Blog>.Fail("blog not found");
@@ -71,11 +72,11 @@ namespace BlogBackend.Services
             }
         }
 
-        public Result Delete(int id)
+        public async Task<Result> Delete(int id)
         {
             try
             {
-                var blog = _repository.GetById(id);
+                var blog = await _repository.GetById(id);
                 if (blog == null)
                     return Result<Blog>.Fail("blog not found");
 
@@ -88,12 +89,32 @@ namespace BlogBackend.Services
             }
         }
 
-        public Result<Blog> Update(UpdateBlogRequest request)
+        //public async Task<Result> SoftDelete(int id)
+        //{
+        //    try
+        //    {
+        //        var blog = await _repository.GetById(id);
+
+        //        if (blog == null)
+        //            return Result<Blog>.Fail("blog not found");
+
+        //        //blog.SoftDelete();
+        //        _repository.Update(blog);
+        //        return Result.Ok();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Result.Fail(ex.Message);
+        //    }
+        //}
+
+
+        public async Task<Result<Blog>> Update(UpdateBlogRequest request)
         {
             try
             {
 
-                var blog = _repository.GetById(request.Id);
+                var blog = await _repository.GetById(request.Id);
                 if (blog == null)
                     return Result<Blog>.Fail("blog not found");
 

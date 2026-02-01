@@ -69,8 +69,8 @@ namespace BlogBackend
                 app.UseSwaggerUI();
             }
 
-            app.UseCors("AllowAngular");
             app.UseHttpsRedirection();
+            app.UseCors("AllowAngular");
 
 
             app.UseAuthorization();

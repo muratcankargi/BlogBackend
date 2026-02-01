@@ -34,9 +34,9 @@ namespace BlogBackend.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Result> GetBlogById([FromRoute] int id)
+        public async Task<ActionResult<Result>> GetBlogById([FromRoute] int id)
         {
-            var result = _service.GetById(id);
+            var result = await _service.GetById(id);
             if (!result.Success)
                 return BadRequest(result.Message);
 
@@ -44,9 +44,9 @@ namespace BlogBackend.Controllers
         }
 
         [HttpPut]
-        public ActionResult<Result> UpdateBlog([FromBody] UpdateBlogRequest request)
+        public async Task<ActionResult<Result>> UpdateBlog([FromBody] UpdateBlogRequest request)
         {
-            var result = _service.Update(request);
+            var result = await _service.Update(request);
             if (!result.Success)
                 return BadRequest(result.Message);
 
@@ -54,14 +54,25 @@ namespace BlogBackend.Controllers
         }
 
         [HttpDelete]
-        public IActionResult DeleteBlog(int id)
+        public async Task<IActionResult> DeleteBlog(int id)
         {
-            var result = _service.Delete(id);
+            var result = await _service.Delete(id);
 
             if (!result.Success)
                 return BadRequest(result.Message);
 
             return Ok(result);
         }
+
+        //[HttpDelete("soft")]
+        //public async Task<IActionResult> SoftDeleteBlog(int id)
+        //{
+        //    var result = await _service.SoftDelete(id);
+
+        //    if (!result.Success)
+        //        return BadRequest(result.Message);
+
+        //    return Ok(result);
+        //}
     }
 }
